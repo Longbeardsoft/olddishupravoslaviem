@@ -1,0 +1,131 @@
+/* Author URI: zanaat.ru */
+
+.inputheader, #inputheader-bg, .inputlayout-cell, .inputlayout-wrapper, .inputfooter, .inputnav, #inputhmenu-bg, .inputsheet,
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.inputtextblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.inputheader
+{
+   z-index: 1;
+   background-image: [headerimage];
+   background-position: [headerposition];
+}
+
+#inputheader-bg 
+{
+   display: none;
+}
+
+.inputhmenu>li, .inputhmenu>li>a
+{
+   display: inline !important;
+   zoom: 1;
+   float: none !important;
+   vertical-align: top;
+}
+ul.inputhmenu, ul.inputhmenu ul {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+#inputhmenu-bg 
+{
+   display: none;
+}
+
+ul.inputhmenu>li:first-child {
+   padding-right:13px;
+}
+ul.inputhmenu>li{
+   zoom:expression(runtimeStyle.zoom=1,insertBefore(document.createElement('span'),firstChild).className='inputhmenu-separator');
+}
+ul.inputhmenu>li>span.inputhmenu-separator
+{
+   position:absolute;
+   display: block;
+   top:0;
+   left:  -13px;
+   width: 13px;
+   height: 38px;
+   background: url('images/menuseparator.png') center center no-repeat;
+}
+ul.inputhmenu>li:first-child>span.inputhmenu-separator
+{
+   display:none;
+}
+
+ul.inputhmenu ul, .desktop-nav ul.inputhmenu>li.ext:hover>a{
+   background-color: #EE9A7C !important;
+}
+
+.inputcontent-layout, .inputcontent-layout-row, .inputlayout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.inputlayout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.inputsearch>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.inputsearch div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.inputsearch>input[type="text"] 
+{
+   margin :0;
+}
+
+form.inputsearch
+{
+   zoom: 1;
+}
+.inputpostmetadataheader{
+   zoom:1;
+}
+
+.inputpostheadericons span{
+   zoom: 1;
+}
+.inputpostcontent {
+   height: 1%;
+}
+
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.inputsidebar2 
+{
+   width: auto;
+   float:none;
+}

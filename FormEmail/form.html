@@ -1,0 +1,53 @@
+<style>
+   input:valid + span:after {
+    background-image:url(http://dishupravoslaviem.ru/wp-content/uploads/formback/ok.png);
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    content:"";
+  }
+   input:invalid + span:after {
+    background-image: url(http://dishupravoslaviem.ru/wp-content/uploads/formback/nook.png);
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    content:"";
+ }
+   textarea:valid + span:after {
+    background-image:url(http://dishupravoslaviem.ru/wp-content/uploads/formback/ok.png);
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    content:"";
+  }
+   textarea:invalid + span:after {
+    background-image: url(http://dishupravoslaviem.ru/wp-content/uploads/formback/nook.png);
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    content:"";
+}
+.inp{display: inline;}
+</style>
+<h2>Сервис временно не работает</h2>
+<div id="contact-wrapper"><form id="contactform" action="http://dishupravoslaviem.ru/FormEmail/form.php" method="post">
+<div><label for="name"><strong>Имя:</strong></label>
+<input id="contactname" class="inp" name="contactname" required="" size="50" type="text" value="" /><span></span></div>
+<div><label for="surname"><strong>Фамилия:</strong></label>
+<input id="surname" name="surname" size="50" type="text" value="" /></div>
+<div><label for="country"><strong>Страна:</strong></label>
+<input id="country" name="country" required="" size="50" type="text" value="" /><span></span></div>
+<div>
+<div><label for="city"><strong>Город:</strong></label>
+<input id="city" name="city" required="" size="50" type="text" value="" /><span></span></div>
+<div><label for="message"><strong>Вопрос:</strong></label>
+<textarea id="message" cols="50" name="message" required="" rows="5"></textarea><span></span></div>
+<div><label for="foto"><strong>Прикрепить фото:</strong></label>
+<input id="foto" name="foto" size="50" type="file" value="" /></div>
+<div><input name="submit" type="submit" value="Отправить письмо" /></div>
+</div>
+</form></div>

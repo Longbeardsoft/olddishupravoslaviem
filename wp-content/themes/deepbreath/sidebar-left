@@ -1,0 +1,8 @@
+<?php
+/**
+ * Sidebar containing the left widget area
+ *
+ * @package WordPress
+ * @subpackage Deep_Breath
+ * @since Deep Breath 1.0
+ */

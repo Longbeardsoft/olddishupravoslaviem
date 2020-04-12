@@ -1,0 +1,9 @@
+###### BEGIN WP_OPTIMIZE_BY_XTRAFFIC_CONFIGS_WP-OPTIMIZE-SPEED-BY-XTRAFFIC ######
+<ifModule mod_headers.c>
+	<filesMatch "\.(html|xml)$">
+		Header set Cache-Control "public, max-age=7200, s-maxage=7200"
+		Header set Pragma "public"
+		Header set X-Cache "HIT (Apache - xTraffic)"
+	</filesMatch>
+</ifModule>
+###### END WP_OPTIMIZE_BY_XTRAFFIC_CONFIGS_WP-OPTIMIZE-SPEED-BY-XTRAFFIC ######
